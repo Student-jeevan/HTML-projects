@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Form Example</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form action="/submit" method="post">
+    <!-- Name -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <!-- Gender -->
+    <p>Gender:</p>
+    <label>
+      <input type="radio" name="gender" value="male" required> Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female" required> Female
+    </label>
+    <br><br>
+
+    <!-- Interests -->
+    <p>Interests:</p>
+    <label>
+      <input type="checkbox" name="interests" value="coding"> Coding
+    </label>
+    <label>
+      <input type="checkbox" name="interests" value="music"> Music
+    </label>
+    <br><br>
+
+    <!-- Country -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="us">United States</option>
+      <option value="uk">United Kingdom</option>
+      <option value="in">India</option>
+    </select>
+    <br><br>
+
+    <!-- Message -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

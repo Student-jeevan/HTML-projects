@@ -1,17 +1,16 @@
 .container{
     width : 1000px;
-    height  : 650px;
+    height  : 640px;
     background-color: gainsboro;
 }
 .container1{
     background-color: rgb(216, 171, 139);
-    height: 50px;
+    height: 40px;
 }
 .container2{
     background-color: rgb(216, 171, 139);
-    height: 595px;
-    width : 100px;
-
+    height: 320px;
+    width : 150px;
 }
  #navbar1{
     display: flex;
@@ -19,13 +18,38 @@
     gap: 140px;
     font-size: 25px;
     text-align: center;
-    padding: 10px 8px;
+    padding: 5px 10px;
 }
 #navbar2{
-    display: flex;               /* Use flexbox layout */
-    flex-direction: column;      /* Stack items vertically */
-    align-items: center;         /* Center buttons horizontally */
-    gap: 100px;                   /* Add space between buttons */
+    display: flex;              
+    flex-direction: column;    
+    align-items: center;         
+    gap: 40px;           
     margin-top: 5px; 
     font-size: 25px; 
 }
+.box {
+    width: 330px;
+    height: 100px;
+    overflow: hidden;
+    border: 5px solid black;
+    text-align: center;
+  }
+  .container3 {
+    display: flex;
+    margin-top: 120px;
+  }
+  #navbar3 {
+    display: flex;             /* Use Flexbox layout */
+    justify-content: center;   /* Centers horizontally */
+    align-items: center;       /* Centers vertically */
+    gap: 20px;                 /* Adds space between the nav items */
+    height: 50px;             /* Set a height for vertical centering */
+    background-color: rgb(216, 171, 139);
+  }
+  #nav { 
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(3, 19, 244);
+  }

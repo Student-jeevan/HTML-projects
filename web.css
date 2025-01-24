@@ -9,7 +9,7 @@
 }
 .container2{
     background-color: rgb(216, 171, 139);
-    height: 320px;
+    height: 300px;
     width : 150px;
 }
  #navbar1{
@@ -24,7 +24,7 @@
     display: flex;              
     flex-direction: column;    
     align-items: center;         
-    gap: 40px;           
+    gap: 30px;           
     margin-top: 5px; 
     font-size: 25px; 
 }

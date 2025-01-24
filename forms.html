@@ -4,10 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    #container{
+      background-color: antiquewhite;
+      height: 90%;
+      width: 80%;
+    }
+    #navbar{
+      background-color: aqua;
+      display: grid;
+      place-items: center;
+      display: flex;
+      justify-content: space-around;
+      font-size: 30px;
+      height: 50px;
+    }
+    #application{
+      background-color: gray;
+     margin-top: 20px;
+     display: grid;
+     place-items: center;
+     font-size: 25px;
+     margin-left: 300px;
+     margin-right: 300px;
+    }
+    body{
+      padding: 10px 20px;
+    }
+    #app{
+      display: grid;
+     place-items: center;
+     font-size: 30px;
+     height: 50px;
+     width: 570px;
+     background-color: aliceblue;
+     margin-left: 300px;
+     margin-top: 20px;
+    }
+    input{
+      border: 3px solid rgb(97, 75, 96);
+      border-radius: 5px;
+      height: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>This is html form</h1>
-    <form action="backend.php">
+    <div id="container">
+      <div id="navbar">
+        <span>Home</span>
+        <span>About Us</span>
+        <span>Contact Us</span>
+        <span>Serivices</span>
+      </div>
+      <div id="app"> Application form</div>
+    <div id="application"><form action="backend.php">
       <div>Name : <input type="text" name="name"></div><br>
       <div>Role : <input type="text" name="myrole"></div><br>
       <div>Email : <input type="email" name=""></div><br>
@@ -31,5 +81,7 @@
       <div><input type="submit" value="submit now">
            <input type="reset" value="Reset now"></div><br>
     </form>
+    </div>
+  </div>
 </body>
 </html>
